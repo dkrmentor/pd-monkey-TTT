@@ -16,15 +16,3 @@ body{
 
 
 }
-.getStartedButton{
-    border-radius: 25px;
-    color: white!important;
-    padding: 10px!important;
-    margin:0px 0px 5px 10px!important;
-    border: none;
-    
-}
-
-.theme-primary{
-    background-color: #ad35d9;
-}

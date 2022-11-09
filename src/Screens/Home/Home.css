@@ -1,0 +1,66 @@
+.sec1 {
+    margin-top: 5em;
+}
+
+.main-view {
+    background-image: url("../../Images/home-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 115vh;
+    /* background: #f1f9fe !important;; */
+    /* background: #f1f9fe url("../../Images/home-bg.png")!important; */
+
+}
+
+.main-view h1 {
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+.main-view p {
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+.main-view .main-button .getStartedButton {
+    max-width: '20em';
+    font-weight: 700;
+    font-size: 0.8em;
+    box-shadow: 0px 0px 20px 10px #ad35d940;
+    
+}
+
+.main-view img {
+    width: 65%;
+    margin-top: 5em;
+}
+
+.home-logos {
+    text-align: center;
+    margin-top: -5em;
+}
+
+.home-logos img {
+    width: 65%;
+}
+.getstart{
+display: flex;
+justify-content: center;
+
+}
+.getstart-heading{
+    margin: 5em;
+    font-size: 0.8em;
+    padding: 1em;
+    width: 30%;   
+    border-radius: 30px;
+    font-weight: 700;
+
+    background-color: #ede1f8;
+}
+.getstart-heading span{
+margin-left: 0.3em;
+}

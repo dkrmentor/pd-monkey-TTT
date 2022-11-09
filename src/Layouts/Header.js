@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../Images/logo.png';
 import "./header.css"
+import "../App.css"
 
 const Header = () => {
 
@@ -21,7 +22,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="menu m-auto">
-            <Nav.Link href="#platform">Platform</Nav.Link>
+              <Nav.Link href="#platform">Platform</Nav.Link>
 
               <NavDropdown title="Services" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
