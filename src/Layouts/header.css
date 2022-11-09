@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Montserrat'!important;
+}
+.menu .nav-link{
+    font-weight: 700;
+    font-size: 0.8em;
+    color: black;
+
+}
+.side-buttons .nav-link{
+    font-weight: 700;
+    font-size: 0.8em;
+    color: black;
+
+
+}
+.getStartedButton{
+    border-radius: 25px;
+    color: white!important;
+    padding: 10px!important;
+    margin:0px 0px 5px 10px!important;
+    border: none;
+    
+}
+
+.theme-primary{
+    background-color: #ad35d9;
+}
