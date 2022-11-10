@@ -4,14 +4,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../Images/logo.png';
-import "./header.css"
+import "./Header.css"
 import "../App.css"
 
 const Header = () => {
 
-  console.log(logo);
+  // console.log(logo);
   return (
-    <>
+ 
       <Navbar className='header' collapseOnSelect expand="lg" >
         <Container fluid className='header'>
           <Navbar.Brand href="#home">
@@ -22,7 +22,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="menu m-auto">
-              <Nav.Link href="#platform">Platform</Nav.Link>
+              <Nav.Link href="/platform">Platform</Nav.Link>
 
               <NavDropdown title="Services" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -35,8 +35,8 @@ const Header = () => {
                   Separated link
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#plans">Plans</Nav.Link>
-              <Nav.Link href="#ourwork">Our Work</Nav.Link>
+              <Nav.Link href="/plans">Plans</Nav.Link>
+              <Nav.Link href="/ourWork">Our Work</Nav.Link>
               <NavDropdown title="Resources" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -58,7 +58,7 @@ const Header = () => {
         </Container>
       </Navbar>
 
-    </>
+   
   );
 }
 

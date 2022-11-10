@@ -1,25 +1,32 @@
 import React from 'react'
+import { BrowserRouter ,Routes , Route } from 'react-router-dom'
 import Layout from './Layouts/Layout'
 import Home from './Screens/Home/Home'
-// import { BrowserRouter ,Routes , Route } from 'react-router-dom'
+import Platform from './Screens/Platform/Platform'
+import Plans from './Screens/Plans/Plans'
+import OurWork from './Screens/OurWork/OurWork'
+
 
 
 const App = () => {
   return (
     <div>
       <Layout>
-        <Home />
-        {/* <BrowserRouter>
+
+
+        <BrowserRouter>
         <Routes>
-        <Route path='/' element={Home} />
-        <Route path='/platform' element={Platform} />
-        <Route path='/' element={Services} />
-        <Route path='/' element={Plans} />
-        <Route path='/' element={OurWork} />
-        <Route path='/' element={Resources} />
+{/* //header */}
+        <Route path='/' element={ <Home /> } />
+        <Route path='/platform' element={<Platform /> }/>
+        <Route path='/plans' element={<Plans />} />
+        <Route path='/ourWork' element={<OurWork />} />
+{/* //footer */}
 
         </Routes>
-        </BrowserRouter> */}
+        </BrowserRouter>
+
+       
       </Layout>
     </div>
   )

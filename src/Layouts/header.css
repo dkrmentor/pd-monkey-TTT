@@ -3,16 +3,21 @@
 body{
     font-family: 'Montserrat'!important;
 }
-.menu .nav-link{
+.header .menu .nav-link{
     font-weight: 700;
     font-size: 0.8em;
     color: black;
 
 }
-.side-buttons .nav-link{
+.header .side-buttons .nav-link{
     font-weight: 700;
     font-size: 0.8em;
     color: black;
 
 
 }
+.header .getStartedButton{
+    margin:0px 0px 5px 10px!important;
+}
+
+
