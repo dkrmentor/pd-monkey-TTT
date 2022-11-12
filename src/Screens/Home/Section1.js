@@ -1,7 +1,8 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav';
 import "../../App.css";
-import MultiItemCarousl from '../../Components/Carousels/MultiItemCarousel';
+import MultiItemCarousel from '../../Components/Carousels/MultiItemCarousel';
+import MultiItemSideCarousel from '../../Components/Carousels/MultiItemSideCarousel';
 import hero from '../../Images/hero.png';
 import logos from '../../Images/logos.jpg';
 import thumbnail01 from '../../Images/thumbnail01.png';
@@ -10,83 +11,84 @@ import thumbnail03 from '../../Images/thumbnail03.png';
 
 
 const Section1 = () => {
-    return (
-        <>          
-          <div className="first-section container">
-            <div>
-                <h1>
-                    Unlimited
-                    <br />
-                    Podcast <span className='theme-primary-color'> Editing
-                    </span>
-                </h1>
-                <p>
-                    We're your podcast editing partner!
-                    <br />
-                    Record more and let us handle the rest. Get ready to save time
-                    <br />
-                    and grow your show!
-                </p>
-            </div>
+  return (
+    <>
+      <div className="first-section container">
+        <div>
+          <h1>
+            Unlimited
+            <br />
+            Podcast <span className='theme-primary-color'> Editing
+            </span>
+          </h1>
+          <p>
+            We're your podcast editing partner!
+            <br />
+            Record more and let us handle the rest. Get ready to save time
+            <br />
+            and grow your show!
+          </p>
+        </div>
 
 
-            <Nav className="justify-content-center main-button">
-                <Nav.Link className="getStartedButton theme-primary" href="#getstarted">GET STARTED</Nav.Link>
-            </Nav>
+        <Nav className="justify-content-center main-button">
+          <Nav.Link className="getStartedButton theme-primary" href="#getstarted">GET STARTED</Nav.Link>
+        </Nav>
 
-            <img src={hero} alt="hero" />
+        <img src={hero} alt="hero" />
+
+      </div>
+
+      <div className='container home-logos'>
+        <img src={logos} alt="logos" />
+
+      </div>
+
+
+      <div className='second-section'>
+
+        <div className='container text-center getstart'>
+          <p className='getstart-heading '>
+            SELECT A PRODUCT TO
+            <span className='theme-primary-color'>
+              GET STARTED
+
+            </span>
+          </p>
 
         </div>
 
-            <div className='container home-logos'>
-                <img src={logos} alt="logos" />
-
-            </div>
-
-
-            <div className='second-section'>
-
-                <div className='container text-center getstart'>
-                    <p className='getstart-heading '>
-                        SELECT A PRODUCT TO
-                        <span className='theme-primary-color'>
-                            GET STARTED
-
-                        </span>
-                    </p>
-
-                </div>
 
 
 
 
-
-        {/* /********** Services Section Start ********** / */}  
+        {/* /********** Services Section Start ********** / */}
         <section id="services-slider-sec">
           <div className="container">
-          <MultiItemCarousl />
+            <MultiItemCarousel />
           </div>
         </section>
-        {/* /********** Services Section end ********** / */}  
-        {/* /********** Truested Section Start ********** / */}  
+        {/* /********** Services Section end ********** / */}
+        {/* /********** Truested Section Start ********** / */}
         <section id="trusted-sec">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-2">
               </div>
-              <div className="col-md-7">
-                <div className="trst-txt-div">
+              <div className="col-md-4">
+                <div className="trst-txt-div spacing">
                   <p><span>30</span> Day Satisfaction Guarantee</p>
                   <h3>Get On-Demand Episode Editing For a Flat Monthly Rate</h3>
                   <p className="gap">Instantly hire a team of <span>professional editors, writers, designers</span> for your podcast. The #1 place for your podcasting needs. Unlimited orders and revisions. Pay monthly and cancel anytime.</p>
                   <p>No Contracts. Just <span>Fast Service.</span></p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="carousel2 col-md-6  spacing">
+                <MultiItemSideCarousel />
               </div>
             </div>
           </div></section>
-        {/* /********** About us Section started ********** / */} 
+        {/* /********** About us Section started ********** / */}
         <section id="about-us">
           <div className="container">
             <div className="row">
@@ -97,21 +99,21 @@ const Section1 = () => {
               </div>
               <div className="col-md-4">
                 <div className="-thumbniel-div">
-              
+
                   <img src={thumbnail01} alt="thumbnail01" />
 
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="-thumbniel-div">
-                 
+
                   <img src={thumbnail02} alt="thumbnail02" />
 
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="-thumbniel-div">
-                 
+
                   <img src={thumbnail03} alt="thumbnail03" />
 
                 </div>
@@ -119,8 +121,7 @@ const Section1 = () => {
             </div>
           </div>
         </section>
-        {/* /********** About us Section end ********** / */}   
-    
+        {/* /********** About us Section end ********** / */}
 
 
 
@@ -131,10 +132,11 @@ const Section1 = () => {
 
 
 
-            </div>
-        </>
 
-    )
+      </div>
+    </>
+
+  )
 }
 
 export default Section1

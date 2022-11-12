@@ -69,9 +69,10 @@
 }
 
 
-
-
-
+/* //n- css */
+.spacing .ser-inerdiv {
+    margin: 380px 23px 57px 13px;
+}
 
 .trst-txt-div p {
     margin: 0;
@@ -144,17 +145,35 @@ section#trusted-sec:before {
     content: "trusted";
     -webkit-text-stroke-width: 1px;
     font-size: 140px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke-color: #ad35d929;
-    right: 40px;
-    bottom: 220px;
+    right: 60px;
+    top: 10px;
 }
 
 
 
 
+
+/* //d-css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* //////////////////////////////////////////////////////////media query */
+
+/* //n-css */
 @media only screen and (max-width: 1200px) {
 	.trst-txt-div h3 {
     font-size: 47px;
