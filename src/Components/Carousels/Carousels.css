@@ -78,7 +78,13 @@
 
 
 
-.rec-arrow-left {
+.second .rec-arrow-left {
     position: absolute!important;
-    left: 21% !important;
+    bottom: 27%;
+    left: 20% !important;
+}
+.second .rec-arrow-right {
+    position: absolute!important;
+    bottom: 27%;
+    left: 24% !important;
 }

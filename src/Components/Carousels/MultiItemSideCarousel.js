@@ -13,7 +13,7 @@ const MultiItemSideCarousel = () => {
     { width: 1200, itemsToShow: 3 }
   ];
   return (
-    <div className="carousel-wrapper">
+    <div className="carousel-wrapper second">
       <Carousel breakPoints={breakPoints}  >
 
         <div className="ser-inerdiv2  ">
