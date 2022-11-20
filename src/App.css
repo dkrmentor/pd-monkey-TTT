@@ -1,21 +1,23 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat' !important;
     background: #f1f9fe !important
-  
 }
-.getStartedButton{
+
+.getStartedButton {
     border-radius: 25px;
-    color: white!important;
-    padding: 10px!important;
+    color: white !important;
+    padding: 10px !important;
 
     border: none;
-    
+
 }
 
-.theme-primary{
+.theme-primary {
     background-color: #ad35d9;
 }
-.theme-primary-color{
+
+.theme-primary-color {
     color: #ad35d9;
 }
-
-

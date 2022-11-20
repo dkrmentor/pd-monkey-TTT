@@ -3,7 +3,7 @@
     overflow-x: clip;
 }
 
-.first-section {
+.home .first-section {
     background-image: url("../../Images/home-bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -15,18 +15,18 @@
 
 }
 
-.first-section h1 {
+.home .first-section h1 {
     font-size: 4em;
     font-weight: 800;
     line-height: 1.2em;
 }
 
-.first-section p {
+.home .first-section p {
     font-size: 0.9em;
     line-height: 1.2em;
 }
 
-.first-section .main-button .getStartedButton {
+.home .first-section .main-button .getStartedButton {
     max-width: '20em';
     font-weight: 700;
     font-size: 0.8em;
@@ -34,27 +34,27 @@
 
 }
 
-.first-section img {
+.home .first-section img {
     width: 65%;
     margin-top: 5em;
 }
 
-.home-logos {
+.home .home-logos {
     text-align: center;
     margin-top: -5em;
 }
 
-.home-logos img {
+.home .home-logos img {
     width: 65%;
 }
 
-.getstart {
+.home .getstart {
     display: flex;
     justify-content: center;
 
 }
 
-.getstart-heading {
+.home .getstart-heading {
     margin: 5em;
     font-size: 0.8em;
     padding: 1em;
@@ -65,22 +65,22 @@
     background-color: #ede1f8;
 }
 
-.getstart-heading span {
+.home .getstart-heading span {
     margin-left: 0.3em;
 }
 
 
 /* //n- css */
-.spacing {
+.home .spacing {
     padding-top: 2em;
 }
 
 
-.spacing .ser-inerdiv {
+.home .spacing .ser-inerdiv {
     margin: 380px 23px 57px 13px;
 }
 
-.trst-txt-div p {
+.home .trst-txt-div p {
     margin: 0;
     font-size: 18px;
     color: #000000;
@@ -88,26 +88,26 @@
     padding: 0;
 }
 
-.trst-txt-div p span {
+.home .trst-txt-div p span {
     color: #ad35d9;
 }
 
-.trst-txt-div h3 span {
+.home .trst-txt-div h3 span {
     color: #ad35d9;
 }
 
-.trst-txt-div h3 {
+.home .trst-txt-div h3 {
     font-size: 70px;
     width: 920px;
     font-weight: 500;
     color: #333;
 }
 
-.trst-txt-div {
+.home .trst-txt-div {
     padding: 70px 0px 0px 70px;
 }
 
-p.gap {
+.home p.gap {
     width: 560px;
     padding: 8px 0 40px 0;
     font-weight: 600;
@@ -116,45 +116,45 @@ p.gap {
 
 
 
-.txt-div {
+.home .txt-div {
     width: 100%;
     text-align: center !important;
 }
 
-.txt-div h2 {
+.home .txt-div h2 {
     font-size: 70px;
     padding: 0 0 22px 0;
 }
 
-section#about-us {
+.home section#about-us {
     padding: 90px 0 0 0;
     background: url(../../Images/aboutbg.png);
     background-repeat: no-repeat;
     background-position: center 70%;
 }
 
-.txt-div h4 {
+.home .txt-div h4 {
     font-size: 18px;
     font-weight: 600;
     padding: 0 0 0px 0;
 }
 
-.txt-div h2 span {
+.home .txt-div h2 span {
     color: #ad35d9;
 }
 
-.txt-div p {
+.home .txt-div p {
     font-size: 18px;
     font-weight: 500;
     padding: 0 140px 40px 140px;
 }
 
-section#trusted-sec {
+.home section#trusted-sec {
     padding: 0 0 130px 0;
     position: relative;
 }
 
-section#trusted-sec:before {
+.home section#trusted-sec:before {
     position: absolute;
     content: "trusted";
     -webkit-text-stroke-width: 1px;
@@ -173,16 +173,16 @@ section#trusted-sec:before {
 
 /* //n-css */
 @media only screen and (max-width: 1200px) {
-    .trst-txt-div h3 {
+    .home .trst-txt-div h3 {
         font-size: 47px;
         width: 680px;
     }
 
-    .trst-txt-div {
+    .home .trst-txt-div {
         padding: 70px 140px 0px 0px;
     }
 
-    .trst-txt-div p {
+    .home .trst-txt-div p {
         font-size: 15px;
     }
 }
@@ -190,55 +190,55 @@ section#trusted-sec:before {
 
 
 @media only screen and (max-width: 991px) {
-    .trst-txt-div h3 {
+    .home .trst-txt-div h3 {
         font-size: 40px;
         width: 650px;
     }
 
-    section#trusted-sec:before {
+    .home section#trusted-sec:before {
         font-size: 60px;
         right: 10px;
         bottom: 100px;
     }
 
-    .txt-div p {
+    .home .txt-div p {
         font-size: 16px;
         padding: 90 50px 40px 50px;
     }
 
-    .txt-div h2 {
+    .home .txt-div h2 {
         font-size: 40px;
         padding: 0 0 5px 0;
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .trst-txt-div h3 {
+    .home .trst-txt-div h3 {
         font-size: 34px;
         width: 350px;
     }
 
-    p.gap {
+    .home p.gap {
         width: 300px;
         padding: 8px 0 40px 0;
     }
 
-    .txt-div h2 {
+    .home .txt-div h2 {
         font-size: 30px;
         padding: 0 0 5px 0;
     }
 
-    section#trusted-sec:before {
+    .home section#trusted-sec:before {
         font-size: 36px;
         right: 30px;
         bottom: 100px;
     }
 
-    .trst-txt-div p {
+    .home .trst-txt-div p {
         font-size: 14px;
     }
 
-    .txt-div p {
+    .home .txt-div p {
         font-size: 13px;
         padding: 0 25px 7px 25px;
     }
@@ -247,23 +247,23 @@ section#trusted-sec:before {
 
 
 /* ////////// */
-.second2 {
+.home .second2 {
     background: #f2effa !important;
     padding-bottom: 6em;
 
 }
 
-.cards-container {
+.home .cards-container {
     position: relative;
 
 }
 
-.sec-cards {
+.home .sec-cards {
     justify-content: center;
     gap: 20px;
 }
 
-.sec2card.card {
+.home .sec2card.card {
     border-radius: 25px;
     width: 20rem;
     height: 20vh;
@@ -273,21 +273,21 @@ section#trusted-sec:before {
     box-shadow: 0 0 20px 8px #ad35d92e;
 }
 
-.sec2card .card-content .title {
+.home .sec2card .card-content .title {
     font-size: 1em;
     text-align: center;
     font-weight: bold;
     padding: 4em 2.5em 0em 2.5em;
 }
 
-.sec2card .card-content .text {
+.home .sec2card .card-content .text {
     font-size: 0.8em;
     text-align: center;
     font-weight: bold;
     padding: 0em 1em;
 }
 
-.sec-card2 {
+.home .sec-card2 {
     background-color: #e4d3f5;
     height: 16vh;
     width: 85%;
@@ -295,28 +295,28 @@ section#trusted-sec:before {
     border-radius: 25px;
 }
 
-.first-card {
+.home .first-card {
     background-image: url(../../Images/one.png);
     background-size: 30%;
 }
 
-.second-card {
+.home .second-card {
     background-image: url(../../Images/two.png);
     background-size: 40%;
 }
 
-.third-card {
+.home .third-card {
     background-image: url(../../Images/three.png);
     background-size: 40%;
 }
 
 
 
-.trst-txt-div2 {
+.home .trst-txt-div2 {
     padding: 220px 0px 0px 70px;
 }
 
-.trst-txt-div2 p {
+.home .trst-txt-div2 p {
     margin: 0;
     font-size: 18px;
     color: #000000;
@@ -324,15 +324,15 @@ section#trusted-sec:before {
     padding: 0;
 }
 
-.trst-txt-div2 p span {
+.home .trst-txt-div2 p span {
     color: #ad35d9;
 }
 
-.trst-txt-div2 h3 span {
+.home .trst-txt-div2 h3 span {
     color: #ad35d9;
 }
 
-.trst-txt-div2 h3 {
+.home .trst-txt-div2 h3 {
     font-size: 70px;
     width: 920px;
     font-weight: 500;
@@ -342,33 +342,33 @@ section#trusted-sec:before {
 
 
 
-p.gap2 {
+.home p.gap2 {
     width: 560px;
     padding: 40px 0 8px 0;
     font-weight: 600;
 
 }
 
-.second2 .txt-div {
+.home .second2 .txt-div {
     padding-top: 5em;
 }
 
-.second2 h4 {
+.home .second2 h4 {
     padding-top: 1em;
 }
 
-.second2 .cards-container {
+.home .second2 .cards-container {
     padding-top: 2em;
 
 }
 
-.second2 .main-button {
+.home .second2 .main-button {
     padding-top: 2em;
 
 }
 
 
-.pkg-card.card {
+.home .pkg-card.card {
     width: 25%;
     background-color: #f2effa;
     border-radius: 25px;
@@ -379,11 +379,11 @@ p.gap2 {
 
 
 
-.trst-txt-div3 {
+.home .trst-txt-div3 {
     padding: 120px 0px 0px 0px;
 }
 
-.trst-txt-div3 p {
+.home .trst-txt-div3 p {
     margin: 0;
     font-size: 18px;
     color: #000000;
@@ -391,15 +391,15 @@ p.gap2 {
     padding: 0;
 }
 
-.trst-txt-div3 p span {
+.home .trst-txt-div3 p span {
     color: #ad35d9;
 }
 
-.trst-txt-div3 h3 span {
+.home .trst-txt-div3 h3 span {
     color: #ad35d9;
 }
 
-.trst-txt-div3 h3 {
+.home .trst-txt-div3 h3 {
     font-size: 70px;
     width: 920px;
     font-weight: 500;
@@ -408,16 +408,10 @@ p.gap2 {
 
 
 
-.sec-card3 {
+.home .sec-card3 {
     background-color: #ad35d9;
     height: 25vh;
-    width: 85%; 
+    width: 85%;
     margin: 0 auto 0 auto;
     border-radius: 25px;
 }
-
-
-
-
-
-
