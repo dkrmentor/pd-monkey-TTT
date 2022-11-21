@@ -4,8 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../Images/logo.png';
-import "./Header.css"
-import "../App.css"
+
+
+
 
 const Header = () => {
 
@@ -51,7 +52,7 @@ const Header = () => {
             </Nav>
             <Nav className="side-buttons">
               <Nav.Link href="#login">Login</Nav.Link>
-              <Nav.Link className="getStartedButton theme-primary" href="#getstarted">GET STARTED</Nav.Link>
+              <Nav.Link className="getStartedButton theme-primary text-white" href="#getstarted">GET STARTED</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>

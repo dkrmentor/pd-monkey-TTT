@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Footer.css"
 import Nav from 'react-bootstrap/Nav';
 import { FaFacebookF } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
@@ -7,17 +6,18 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 import footerLogo from '../Images/footerLogo.png';
 
 
+
 const Footer = () => {
   return (
     <>
       {/* Footer */}
-      <footer className="bg-dark ">
+      <footer className="bg-dark text-white">
 
 
-<div className='container'>
-<img className='ftr-logo' src={footerLogo} alt="Logo" />
+        <div className='container'>
+          <img className='ftr-logo' src={footerLogo} alt="Logo" />
 
-</div>
+        </div>
 
 
         <section className="container top-footer ">
@@ -88,7 +88,7 @@ const Footer = () => {
         {/* Copyright */}
 
         <section className='container bottom-footer py-4'>
-          <div className='row'>
+          <div className='row container'>
 
 
 

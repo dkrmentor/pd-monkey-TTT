@@ -74,17 +74,37 @@
 
 }
 
-
-
-
-
 .second .rec-arrow-left {
-    position: absolute!important;
+    position: absolute !important;
     bottom: 27%;
     left: 20% !important;
 }
+
 .second .rec-arrow-right {
-    position: absolute!important;
+    position: absolute !important;
     bottom: 27%;
     left: 24% !important;
+}
+
+.third {
+    position: relative;
+    margin: 4em 0em 10em 0em;
+}
+
+
+.third .rec-arrow-left {
+    position: absolute !important;
+    bottom: -50% !important;
+    left: 48%;
+}
+
+.third .rec-arrow-right {
+    position: absolute !important;
+    bottom: -50% !important;
+    left: 52%;
+}
+
+.third .ser-inerdiv3 img {
+    width: 90%;
+    border-radius: 5%;
 }

@@ -5,19 +5,23 @@ body {
     background: #f1f9fe !important
 }
 
-.getStartedButton {
-    border-radius: 25px;
-    color: white !important;
-    padding: 10px !important;
-
-    border: none;
-
-}
-
 .theme-primary {
     background-color: #ad35d9;
 }
 
-.theme-primary-color {
-    color: #ad35d9;
+.theme-primary-color , .text-purple {
+    color: #ad35d9!important;
 }
+.theme-white{
+    background-color: white;
+}
+.theme-white-color  , .text-white {
+    color: white;
+}
+.theme-black{
+    background-color: black;
+}
+.theme-black-color  , .text-black {
+    color: black;
+}
+
