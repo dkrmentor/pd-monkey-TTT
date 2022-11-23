@@ -15,9 +15,9 @@ import MultiItemCarouselscene from '../../Components/Carousels/MultiItemCarousel
 import IMG1 from '../../Images/IMG1.png';
 import IMG2 from '../../Images/IMG2.png';
 import IMG3 from '../../Images/IMG3.png';
-
 import "./Home.css"
 import "../../App.css"
+import "./responsive.css"
 
 
 
@@ -26,8 +26,7 @@ const Home = () => {
   return (
     <div className='home'>
       <div className='home-section1'>
-        <div className="first-section container text-center">
-          <div className='container'>
+            <div className='container text-center'>
             <h1>
               Unlimited
               <br />
@@ -45,8 +44,17 @@ const Home = () => {
           <Nav className="justify-content-center main-button">
             <Nav.Link className="getStartedButton theme-primary text-white" href="#getstarted">GET STARTED</Nav.Link>
           </Nav>
+
+
+        <div className="first-section text-center">
+      
           <img src={hero} alt="hero" />
+
+
         </div>
+
+
+
         <div className='container home-logos text-center'>
           <img src={logos} alt="logos" />
         </div>
